@@ -1,0 +1,72 @@
+h1 {
+    color: red;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 96px;
+}
+
+h2 {
+    color: red;
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 56px;
+}
+
+h3 {
+    color: red;
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 46px;
+}
+
+h4 {
+        color: red;
+        font-family: "Poppins", serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 36px;
+    }
+
+h5 {
+        color: red;
+        font-family: "Poppins", serif;
+        font-weight: 200;
+        font-style: normal;
+        font-size: 28px;
+    }
+h6 {
+    color: red;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.small-heading {
+        color: rgb(0, 217, 255);
+        font-family: "Poppins", serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 16px;
+    }
+
+p {
+    color: blueviolet;
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.small-paragraph {
+    color: blueviolet;
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 16px;
+}
