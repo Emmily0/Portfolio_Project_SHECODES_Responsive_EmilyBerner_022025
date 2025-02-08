@@ -1,9 +1,10 @@
 h1 {
-    color: red;
+    color: #757575;
     font-family: "Poppins", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 96px;
+    font-size: 80px;
+
 }
 
 h2 {
@@ -15,11 +16,11 @@ h2 {
 }
 
 h3 {
-    color: red;
+    color: #757575;
     font-family: "Poppins", serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 46px;
+    font-size: 44px;
 }
 
 h4 {
@@ -31,11 +32,11 @@ h4 {
     }
 
 h5 {
-        color: red;
+        color: #656060;
         font-family: "Poppins", serif;
-        font-weight: 200;
+        font-weight: 300;
         font-style: normal;
-        font-size: 28px;
+        font-size: 22px;
     }
 h6 {
     color: red;
@@ -69,4 +70,73 @@ p {
     font-weight: 100;
     font-style: normal;
     font-size: 16px;
+}
+.image-flowers {
+    margin-top: 64px;
+    display: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 520px;
+    background-image: url(/images/image-flowers-hawai.png);
+    background-size: contain;
+    background-position: left top;
+    background-repeat: no-repeat;
+    opacity: 70%;
+    z-index: -1;
+}
+
+
+.image-emily {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    margin-top: 77px;
+    margin-left: 96px;
+}
+
+.overlay-image-flower {
+    position: relative;
+    width: 293px;
+    height: 293px;
+    background-image: url(/images/image-flower-hawai.png);
+    opacity: 90%;
+    z-index: 1;
+}
+.image-citrus {
+    width: 107%;
+    height: 97%;
+    position: relative;
+  }
+
+  .image-citrus::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/images/image-citrus-2.png);
+    background-size: cover;
+    background-position: center -14px;
+    background-repeat: no-repeat;
+    opacity: 0.1;
+    z-index: -1;
+  }
+  .text-content {
+    padding-top: 80px;
+}
+
+.contact-button {
+    padding: 10px 80px !important;
+    background-color: #F8A5A8 !important;
+    border: none;
+}
+.contact-button a {
+    text-decoration: none;
+    color: white;
 }
