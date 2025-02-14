@@ -16,7 +16,7 @@ h2 {
     font-family: "Poppins", serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 56px;
+    font-size: 55px;
 }
 
 h3 {
@@ -152,14 +152,58 @@ p {
     color: white;
 }
 
+.about-button {
+    background-color: #F27175 !important;
+    border: none;
+    padding: 10px 60px;
+    margin-bottom: 42px;
+    margin-left: 50px;
+}
+.about-button a {
+    text-decoration: none;
+    color: white;
+}
+
+.projects-button {
+    background-color: #879F80 !important;
+    border: none;
+    padding: 10px 50px;
+    margin-left: 50px;
+    margin-bottom: 35px;
+}
+.projects-button a {
+    text-decoration: none;
+    color: white;
+}
+
 .container-portfolio {
     background-color: white;
+}
+
+.container-buttons {
+    margin-top: 44px;
+}
+
+.linkedin-icon {
+    width: 35px;
+    height: 35px;
+    font-size: 35px;
+    margin-left: 111px;
+    margin-right: 10px;
+}
+
+.github-icon {
+    width: 35px;
+    height: 35px;
+    font-size: 35px;
+    margin-bottom: 50px;
+    color: black;
 }
 
 @media (max-width: 576px) {
 
     body, html {
-        overflow-x: hidden; /* Prevents horizontal scrolling */
+        overflow-x: hidden;
         width: 100%;
     }
     .image-flowers, .overlay-image-flower { display: none;}
@@ -173,7 +217,7 @@ p {
 
     .citrus-box {
         width: 100%;
-        max-width: 100vw; /* Ensures no overflow */
+        max-width: 100vw;
     }
 
     .image-citrus::before {
