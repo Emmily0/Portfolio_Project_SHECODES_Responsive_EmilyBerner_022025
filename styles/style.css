@@ -12,9 +12,9 @@ h1 {
 }
 
 h2 {
-    color: red;
+    color: #F27175;
     font-family: "Poppins", serif;
-    font-weight: 200;
+    font-weight: 300;
     font-style: normal;
     font-size: 56px;
 }
@@ -95,7 +95,7 @@ p {
     object-fit: cover;
     object-position: center;
     display: block;
-    margin-top: 77px;
+    margin-top: 106px;
     margin-left: 96px;
     position: relative;
     z-index: 2;
@@ -103,15 +103,15 @@ p {
 
 .overlay-image-flower {
     position: absolute;
-    width: 220px;
-    height: 220px;
+    width: 250px;
+    height: 250px;
     background-image: url(/images/image-flower-hawai.png);
     background-size: contain;
     background-repeat: no-repeat;
     opacity: 100%;
     z-index: 1;
     bottom: 205px;
-    left: 319px;
+    left: 407px;
 }
 
 .citrus-box {
@@ -154,7 +154,6 @@ p {
 
 .container-portfolio {
     background-color: white;
-    padding-top: 100px;
 }
 
 @media (max-width: 576px) {
