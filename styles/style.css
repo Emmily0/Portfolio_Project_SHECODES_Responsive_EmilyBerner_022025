@@ -2,6 +2,18 @@ body {
     margin: 0 auto;
 }
 
+.navbar-brand {
+    color: #5f8a54;
+}
+.navbar-brand:hover {
+text-decoration: underline;
+color: #5f8a54;
+}
+
+.nav-link:hover {
+    color: #F27175;
+}
+
 h1 {
     color: #757575;
     font-family: "Poppins", serif;
@@ -17,6 +29,7 @@ h2 {
     font-weight: 300;
     font-style: normal;
     font-size: 55px;
+    margin-bottom: 35px;
 }
 
 h3 {
@@ -138,7 +151,7 @@ p {
     opacity: 0.1;
     z-index: -1;
   }
-  .text-content {
+.text-content {
     padding-top: 80px;
 }
 
@@ -155,9 +168,9 @@ p {
 .about-button {
     background-color: #F27175 !important;
     border: none;
-    padding: 10px 60px;
+    padding: 10px 80px;
     margin-bottom: 42px;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 .about-button a {
     text-decoration: none;
@@ -167,28 +180,34 @@ p {
 .projects-button {
     background-color: #879F80 !important;
     border: none;
-    padding: 10px 50px;
-    margin-left: 50px;
-    margin-bottom: 35px;
+    padding: 10px 70px;
+    margin-left: 40px;
+    margin-bottom: 37px;
 }
 .projects-button a {
     text-decoration: none;
     color: white;
 }
 
+.btn:hover {
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2) !important; /* Larger shadow */
+    border-bottom: 0.5px solid rgb(255, 255, 255) !important; /* White border */
+    transition: box-shadow 0.3s ease-in-out, border 0.3s;
+}
+
+
 .container-portfolio {
     background-color: white;
 }
 
 .container-buttons {
-    margin-top: 44px;
+    margin-top: -64px;
 }
-
 .linkedin-icon {
     width: 35px;
     height: 35px;
     font-size: 35px;
-    margin-left: 111px;
+    margin-left: 122px;
     margin-right: 10px;
 }
 
@@ -198,6 +217,38 @@ p {
     font-size: 35px;
     margin-bottom: 50px;
     color: black;
+}
+
+.linkedin-icon:hover, .github-icon:hover {
+    color: #F27175;
+}
+
+.card-homepage {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card-homepage:hover {
+    transform: scale(1.05); /* Slightly enlarges the card */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); /* Adds a shadow effect */
+}
+
+.card-homepage-title {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Poppins", serif;
+
+}
+
+.card-homepage-link {
+    font-size: 15px;
+    font-weight: 400;
+    color: #285142;
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+}
+
+.card-homepage-link:hover {
+    color: #F27175;
 }
 
 @media (max-width: 576px) {
