@@ -190,8 +190,8 @@ p {
 }
 
 .btn:hover {
-    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2) !important; /* Larger shadow */
-    border-bottom: 0.5px solid rgb(255, 255, 255) !important; /* White border */
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2) !important;
+    border-bottom: 0.5px solid rgb(255, 255, 255) !important;
     transition: box-shadow 0.3s ease-in-out, border 0.3s;
 }
 
@@ -228,8 +228,8 @@ p {
 }
 
 .card-homepage:hover {
-    transform: scale(1.05); /* Slightly enlarges the card */
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); /* Adds a shadow effect */
+    transform: scale(1.05);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .card-homepage-title {
@@ -257,6 +257,7 @@ p {
         overflow-x: hidden;
         width: 100%;
     }
+    
     .image-flowers, .overlay-image-flower { display: none;}
 
     .image-emily {
@@ -265,7 +266,14 @@ p {
         object-position: center;
 
     }
-
+    .bg-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
     .citrus-box {
         width: 100%;
         max-width: 100vw;
@@ -276,15 +284,110 @@ p {
     }
 
     .image-citrus {
-        width: 100%;
+        width: 100% !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    margin-top: -105px !important;
+    padding-top: 0 !important;
+
     }
 
     .text-content {
-        padding-top: 20px;
+        text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    }
+
+
+.contact-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto !important;
+    margin-top: -2px !important;
+}
+
+    .portfolio-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .card-homepage-container {
+        order: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        margin-top: -10px !important;
+
+    }
+
+    .card-homepage {
+        width: 90% !important;
+        max-width: 400px;
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-buttons {
+        order: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5px;
+        width: 100%;
+    }
+
+    .container-buttons button {
+        width: 65%;
+        max-width: 300px;
+        text-align: center;
+    }
+
+    .about-button {
+        margin: auto;
+    }
+
+    .d-flex {
+       order: 3;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .social-icons {
+        margin-top: 30px !important;
+    }
+
+    .linkedin-icon {
+        margin-left: 4px;
+        margin-right: 20px;
+        
+    }
+    .projects-button {
+        display:none;
     }
 
     h1 {
         display: none;
+    }
+
+    h2 {
+        margin-top: -139px;
+        font-size: 38px;
+        margin-bottom: -13px !important;
+
     }
 
     h3 {
