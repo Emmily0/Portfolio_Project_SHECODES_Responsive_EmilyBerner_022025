@@ -251,6 +251,79 @@ p {
     color: #F27175;
 }
 
+.image-emily-about {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    margin-top: 30px;
+    margin-left: 96px;
+    position: relative;
+    z-index: 3;
+   
+}
+.image-citrus-about {
+    position: relative;
+    background-image: url("/images/image-citrus-2.png");
+    background-size:cover;
+    background-position: left center;
+    background-repeat: no-repeat;
+    width: 65vw;
+    height: 82vh;
+    z-index: 1;
+}
+
+.image-citrus-about::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.659);
+    z-index: 1;
+}
+
+.about {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: black; 
+}
+
+.about-title {
+    margin-top: 186px;
+}
+.aboutme-title{
+    color: #FF543E;
+}
+
+.button-group {
+    margin-top: 20px;
+    z-index: 5; /* Ensure buttons appear above the background */
+}
+
+.btn-projects {
+    background-color: #879F80 !important;
+    border: none;
+    padding: 10px 70px;
+    text-decoration: none;
+    color: white;
+    border-radius: 23px;
+}
+
+.btn-contact {
+    padding: 10px 80px !important;
+    background-color: #F8A5A8 !important;
+    border: none;
+    text-decoration: none;
+    color: white;
+    border-radius: 23px;
+
+}
+
 @media (max-width: 576px) {
 
     body, html {
