@@ -311,6 +311,28 @@ p {
 
 }
 
+.h3-about-content {
+   font-size: 36px;
+   font-weight: 300;
+   color: black;
+}
+
+.h6-title-about-content{
+    font-size: 22px;
+    font-weight: 500;
+    color:#F27175;
+    padding-bottom: 10px;
+}
+
+.body-card-about-content {
+    padding-top: 0;
+}
+
+.text-content-about {
+    font-size: 17px;
+    color: rgb(79, 79, 79);
+}
+
 @media (max-width: 576px) {
 
     body, html {
@@ -457,5 +479,9 @@ p {
 
     h5{
         font-size: 20px;
+    }
+
+    .image-citrus-about {
+        background-image: none;
     }
 }
