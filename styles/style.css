@@ -245,8 +245,8 @@ p {
     object-fit: cover;
     object-position: center;
     display: block;
-    margin-top: 30px;
-    margin-left: 96px;
+    margin-top: 80px;
+    margin-left: 50px;
     position: relative;
     z-index: 3;
    
@@ -331,6 +331,22 @@ p {
 .text-content-about {
     font-size: 17px;
     color: rgb(79, 79, 79);
+}
+
+.image-flowers-about {
+    background-image: url("/images/image-flowers-hawai.png");
+    margin-top: 64px;
+    margin-left: -49px;
+    width: 486px;
+    height: 460px;
+    background-position: left top;
+    background-repeat: no-repeat;
+    opacity: 30%;
+    z-index: -1;
+}
+
+.social-icons-about {
+    margin-left: -75px;
 }
 
 @media (max-width: 576px) {
