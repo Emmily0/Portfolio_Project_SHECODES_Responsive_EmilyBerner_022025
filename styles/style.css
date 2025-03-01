@@ -114,19 +114,6 @@ p {
     z-index: 2;
 }
 
-.overlay-image-flower {
-    position: absolute;
-    width: 250px;
-    height: 250px;
-    background-image: url(/images/image-flower-hawai.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    opacity: 100%;
-    z-index: 1;
-    bottom: 205px;
-    left: 407px;
-}
-
 .citrus-box {
     width: 500px; 
     height: 500px;
@@ -331,7 +318,7 @@ p {
         width: 100%;
     }
     
-    .image-flowers, .overlay-image-flower { display: none;}
+    .image-flowers { display: none;}
 
     .image-emily {
         display: block;
