@@ -245,7 +245,7 @@ p {
     object-fit: cover;
     object-position: center;
     display: block;
-    margin-top: 80px;
+    margin-top: 35px;
     margin-left: 50px;
     position: relative;
     z-index: 3;
@@ -258,7 +258,10 @@ p {
     background-position: left center;
     background-repeat: no-repeat;
     width: 65vw;
-    height: 60vh;
+    min-height: 500px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
     z-index: 1;
 }
 
@@ -275,20 +278,28 @@ p {
 
 .about {
     position: relative;
+    top: 50%;
+    left: 25%;
+    transform: translate(-47%, -62%);
     z-index: 2;
     text-align: center;
     color: black; 
 }
-
-.about-title {
-    margin-top: 100px;
-}
 .aboutme-title{
     color: #FF543E;
+    margin-bottom: 20px;
+    text-align: center;
+    z-index: 3;
+    position: relative;
 }
 
 .button-group {
-    z-index: 5;
+    z-index: 2;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    position: relative;
 }
 
 .btn-projects {
@@ -315,9 +326,11 @@ p {
 }
 
 .h3-about-content {
-   font-size: 36px;
+   font-size: 32px;
    font-weight: 300;
    color: black;
+   margin-top:-5px;
+   margin-bottom:15px;
 }
 
 .h6-title-about-content{
@@ -334,8 +347,8 @@ p {
 
 .image-flowers-about {
     background-image: url("/images/image-flowers-hawai.png");
-    margin-top: 50px;
-    margin-left: -95px;
+    margin-top: -25px;
+    margin-left: -112px;
     width: 480px;
     height: 390px;
     background-position: left top;
@@ -344,11 +357,16 @@ p {
     z-index: -1;
 }
 
-.social-icons-about-container {
-    margin-right: 114px;
+.social-icons-about-linkedin {
+    margin-left: 29px;
 }
 
-.social-icons-about-linkedin {
+.card-about-content {
+    margin-top:-55px;
+    position: relative;
+    z-index: 3;
+    background-color: white;
+
 }
 
 @media (max-width: 576px) {
@@ -501,5 +519,15 @@ p {
 
     .image-citrus-about {
         background-image: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    .image-citrus-about {
+        height: 500px;
+    }
+
+    .about {
+        top: 55%;
     }
 }
