@@ -258,7 +258,7 @@ p {
     background-position: left center;
     background-repeat: no-repeat;
     width: 65vw;
-    height: 82vh;
+    height: 60vh;
     z-index: 1;
 }
 
@@ -281,21 +281,20 @@ p {
 }
 
 .about-title {
-    margin-top: 186px;
+    margin-top: 100px;
 }
 .aboutme-title{
     color: #FF543E;
 }
 
 .button-group {
-    margin-top: 20px;
-    z-index: 5; /* Ensure buttons appear above the background */
+    z-index: 5;
 }
 
 .btn-projects {
     background-color: #879F80 !important;
     border: none;
-    padding: 10px 70px;
+    padding: 10px 80px;
     text-decoration: none;
     color: white;
     border-radius: 23px;
@@ -311,6 +310,10 @@ p {
 
 }
 
+.about-content-container {
+    margin-right: 20px;
+}
+
 .h3-about-content {
    font-size: 36px;
    font-weight: 300;
@@ -324,10 +327,6 @@ p {
     padding-bottom: 10px;
 }
 
-.body-card-about-content {
-    padding-top: 0;
-}
-
 .text-content-about {
     font-size: 17px;
     color: rgb(79, 79, 79);
@@ -335,18 +334,21 @@ p {
 
 .image-flowers-about {
     background-image: url("/images/image-flowers-hawai.png");
-    margin-top: 64px;
-    margin-left: -49px;
-    width: 486px;
-    height: 460px;
+    margin-top: 50px;
+    margin-left: -95px;
+    width: 480px;
+    height: 390px;
     background-position: left top;
     background-repeat: no-repeat;
     opacity: 30%;
     z-index: -1;
 }
 
-.social-icons-about {
-    margin-left: -75px;
+.social-icons-about-container {
+    margin-right: 114px;
+}
+
+.social-icons-about-linkedin {
 }
 
 @media (max-width: 576px) {
