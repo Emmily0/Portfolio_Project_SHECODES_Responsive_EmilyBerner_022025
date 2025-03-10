@@ -457,7 +457,7 @@ margin: 0 !important;  }
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 20px auto;
+    margin: 70px auto 0 auto;
     width: 65%;
     max-width: 300px;
     position: relative !important;
@@ -476,10 +476,9 @@ margin: 0 !important;  }
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10px;
+    margin-top: -17px !important;
     width: 100%;
 }
-
 .container-buttons button {
     width: 65%;
     max-width: 300px;
@@ -513,14 +512,15 @@ margin: 0 !important;  }
         margin-right: 10px;
         
     }
+
     .projects-button {
-        display:none;
+        margin-left: 1px !important;
     }
 
     .h2-welcome {
         margin-top: 35px;
         font-size: 38px;
-        margin-bottom: 13px !important;
+        margin-bottom: -7px !important;
 
     }
 
@@ -557,7 +557,7 @@ margin: 0 !important;  }
     
     .image-flowers {
         margin-top: 64px;
-        margin-left: -80px;
+        margin-left: 36px;
         width: 486px;
         height: 409px;
         background-image: url(/images/image-flowers-hawai.png);
@@ -629,7 +629,7 @@ margin: 0 !important;  }
     }
 
     .h2-welcome {
-        margin-top: 100px;
+        margin: 125px 0px 5px 150px;
     }
 
     h3 {
@@ -644,7 +644,6 @@ margin: 0 !important;  }
     h5{
         font-size: 17px;
         font-weight: 300;
-        margin: 5px 0px 0px 91px;
         text-align: center;
         width: 100%;
     }
@@ -653,32 +652,37 @@ margin: 0 !important;  }
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         width: 100%;
-        margin-top: -257px;
+        margin-top: -732px;
+        gap: 15px;
     }
 
     .container-buttons button {
-        width: 170% !important;
-        max-width: 300px !important;
+        width: 100% !important;
+        max-width: 250px !important;
         text-align: center;
-        margin-bottom: 20px;
-    }
+        padding: 10px 15px;
+        font-size: 18px;
+        }
 
     .card-homepage-container {
-        display: flex !important;
-        flex-wrap: nowrap !important;
+        display: grid !important;
+        grid-template-columns: 1fr;
         justify-content: center !important;
-        align-items: stretch !important;
-        gap: 10px !important;
-        width: 100%;
-        overflow-x: auto;
+        gap: 20px !important;
+        width: 200%;
         padding: 10px 0;
+        margin-left: 99px !important;
     }
 
     .card-homepage {
-        flex: 1;        
-        min-width: 250px !important;
-        max-width: 300px;
+        flex: 1 1 calc(33.333% - 10px);
+        min-width: 300px;
+        max-width: 500px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
         align-items: center;
     }
 
@@ -686,24 +690,89 @@ margin: 0 !important;  }
         display: flex;
         justify-content: center;
         width: 100%;
-        margin-top: 10px !important;
+        margin-top: 0px !important;
+        gap: 15px;
+    }
+
+    .social-icons a {
+        font-size: 24px;
     }
 
     .contact-button {
-        margin-right: -82px;
+        margin:-15px -47px;
     }
-
     .about-button {
-        margin-left: 47px;
+        margin-bottom: 862px;    
     }
-
     .projects-button {
-        margin-left: 47px;
+        margin-left: 40px;
+        margin-top: -860px;
+                display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .linkedin-icon {
-        margin-left: 47px;
+        margin-left: 48px;
     }
+
+    .github-icon {
+        margin-left: -15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-homepage {
+        flex: 1 1 100%;
+    }
+
+    .card-homepage-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+.container-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: -40px;
+    gap: 10px;
+}
+
+.container-buttons button {
+    width: 100% !important;
+    max-width: 230px !important;
+    text-align: center;
+    padding:8px 15px;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px !important;
+    gap: 15px;
+}
+
+.social-icons a {
+    font-size: 24px;
+}
+
+.contact-button-homepage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-top: -80px !important;
+}
+
+.contact-button {
+    padding: 8px 60px !important;
+}
 }
 
 @media (min-width: 1200px) {
