@@ -521,8 +521,15 @@ margin: 0 !important;  }
         margin-top: 35px;
         font-size: 38px;
         margin-bottom: -7px !important;
-
     }
+        .btn-contact {
+            margin: 0px 0 -480px 0;
+            order: 2;
+        }
+        
+        .btn-projects {
+            display: none;
+        }
 
     h1 {
         font-size: 37px;
@@ -550,6 +557,51 @@ margin: 0 !important;  }
 
     .image-citrus-about {
         background-image: none;
+    }
+
+    .image-flowers-about {
+        display: none;
+    }
+
+    .image-emily-about {
+display: none;    }
+
+.social-icons-about-git {
+    display: none !important;}
+
+    .aboutme-title {
+        margin: -208px auto -20px auto !important;
+    }
+
+    .social-icons-about-linkedin {
+        margin: 480px 0 0 0 !important;
+        order: 3;
+    }
+
+    .about {    margin: 79px 0 -28px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .card-about-content {margin: -330px 10px 0 10px;
+    order: 1;}
+
+    .h6-title-about-content {
+        font-size: 21px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .text-content-about {
+        text-align: center;
+    }
+
+    .about-container {
+        display: flex;
+    flex-direction: column;
+    align-items: center;
     }
 }
 
