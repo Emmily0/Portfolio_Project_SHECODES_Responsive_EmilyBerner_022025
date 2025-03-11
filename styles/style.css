@@ -605,7 +605,7 @@ display: none;    }
     }
 }
 
-@media (min-width: 577px) and (max-width: 992px) {
+@media (min-width: 578px) and (max-width: 992px) {
     
     .image-flowers {
         margin-top: 64px;
@@ -824,6 +824,83 @@ display: none;    }
 
 .contact-button {
     padding: 8px 60px !important;
+}
+}
+
+@media (max-width: 932px) and (orientation: landscape) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+   .citrus-box {
+    margin: 60px 365px 0px 0 !important;   } 
+
+   .text-content {
+    margin: 100px auto 20px !important;
+   }
+
+    .image-flowers {
+        margin-top: 121px;
+        margin-left: 300px;
+        width: 500px;
+        height: 409px;
+        background-image: url(/images/image-flowers-hawai.png);
+        background-position: left top;
+        background-repeat: no-repeat;
+        opacity: 100%;
+        z-index: -1;
+    }
+
+    .hello-title {
+        margin: 40px 0 0 450px !important;
+}
+    
+
+    .emily-title {
+        margin: 12px 0 0 460px !important;
+    }
+
+    .role-paragraph {
+           margin: 12px 0 0 459px !important;
+    }
+
+    .contact-button-homepage {
+        display: flex;
+        justify-content: center;
+       margin: 341px 0 0 67px !important;
+    }
+    .contact-button {
+        padding: 10px 40px;
+        font-size: 16px;
+        margin: -15px -69px !important;
+    }
+
+    .image-emily {
+        display: none;
+    }
+
+    .container-buttons {
+        width: 160% !important;
+        margin-top: -390px;
+        margin-left: -75px;
+}
+
+.h2-welcome {
+    margin: -115px -420px 0px 0;
+}
+
+.linkedin-icon {
+    margin-left: -45px;
+}
+
+.card-homepage-container {
+    margin-left: 130px !important;
+    width: 300%;
+    margin-top: 540px;
 }
 }
 
