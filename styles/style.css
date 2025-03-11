@@ -522,10 +522,6 @@ margin: 0 !important;  }
         font-size: 38px;
         margin-bottom: -7px !important;
     }
-        .btn-contact {
-            margin: 0px 0 -480px 0;
-            order: 2;
-        }
         
         .btn-projects {
             display: none;
@@ -570,11 +566,11 @@ display: none;    }
     display: none !important;}
 
     .aboutme-title {
-        margin: -208px auto -20px auto !important;
+        margin: -220px auto -20px auto !important;
     }
 
     .social-icons-about-linkedin {
-        margin: 480px 0 0 0 !important;
+        margin: 0 !important;
         order: 3;
     }
 
@@ -583,9 +579,14 @@ display: none;    }
         flex-direction: column;
         align-items: center;
         text-align: center;
+        left: 10%;
     }
 
-    .card-about-content {margin: -330px 10px 0 10px;
+    .btn-contact {
+        padding: 10px 41px !important;
+    }
+
+    .card-about-content {margin: -215px 10px 0 10px;
     order: 1;}
 
     .h6-title-about-content {
@@ -902,6 +903,8 @@ display: none;    }
     width: 300%;
     margin-top: 540px;
 }
+
+
 }
 
 @media (min-width: 1200px) {
