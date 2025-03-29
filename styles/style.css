@@ -89,6 +89,10 @@ p {
     font-size: 16px;
 }
 
+.text-content-landscape {
+    display: none;
+  }
+
 .h2-welcome {
     margin-top: 80px;
 }
@@ -148,23 +152,35 @@ p {
 }
 
 .contact-button {
-    padding: 10px 80px !important;
+    padding: 8px 58px !important;
     background-color: #F8A5A8 !important;
     border: none;
-}
-.contact-button a {
+    cursor: pointer !important;
+    color: white;
     text-decoration: none;
+    position: relative;
+    z-index: 3;
+
+}
+
+.contact-button:hover {
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2) !important;
+    border-bottom: 0.5px solid rgb(255, 255, 255) !important;
+    transition: box-shadow 0.3s ease-in-out, border 0.3s;
     color: white;
 }
 
 .contact-button-homepage {
     margin-top: -135px;
+    margin-right: 36px;
+    position: relative;
+    z-index: 3;
 }
 
 .about-button {
     background-color: #F27175 !important;
     border: none;
-    padding: 10px 80px;
+    padding: 8px 67px;
     margin-bottom: 30px;
     margin-left: 40px;
 }
@@ -176,7 +192,7 @@ p {
 .projects-button {
     background-color: #879F80 !important;
     border: none;
-    padding: 10px 70px;
+    padding: 8px 58px;
     margin-left: 40px;
     margin-bottom: 30px;
 }
@@ -377,6 +393,11 @@ p {
     background-color: white;
 
 }
+
+.container-buttons-landscape {
+    display: none !important;
+}
+
 
 @media (max-width: 577px) {
 
@@ -604,6 +625,9 @@ display: none;    }
     flex-direction: column;
     align-items: center;
     }
+    .container-buttons-landscape {
+        display: none !important;
+    }
 }
 
 @media (min-width: 578px) and (max-width: 992px) {
@@ -772,6 +796,9 @@ display: none;    }
     .github-icon {
         margin-left: -15px;
     }
+    .container-buttons-landscape {
+        display: none !important;
+    }
 }
 
 @media (max-width: 768px) {
@@ -826,85 +853,132 @@ display: none;    }
 .contact-button {
     padding: 8px 60px !important;
 }
+.container-buttons-landscape {
+    display: none !important;
+}
 }
 
 @media (max-width: 932px) and (orientation: landscape) {
+    body, html {
+      overflow-x: hidden;
+      width: 100%;
+    }
+  
     .container {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 100vh;
+        text-align: center;
     }
-
-   .citrus-box {
-    margin: 60px 365px 0px 0 !important;   } 
-
-   .text-content {
-    margin: 100px auto 20px !important;
-   }
-
-    .image-flowers {
-        margin-top: 121px;
-        margin-left: 300px;
-        width: 500px;
-        height: 409px;
-        background-image: url(/images/image-flowers-hawai.png);
-        background-position: left top;
-        background-repeat: no-repeat;
-        opacity: 100%;
-        z-index: -1;
+  
+    .image-flowers,
+  .image-emily {
+    display: none;
+  }
+  
+    .citrus-box {
+      width: 100% !important;
+      height: auto !important;
+      margin: 0 auto !important;
+      padding: 0 !important;
     }
-
-    .hello-title {
-        margin: 40px 0 0 450px !important;
-}
-    
-
-    .emily-title {
-        margin: 12px 0 0 460px !important;
+  
+    .image-citrus {
+      width: 100% !important;
+      height: auto !important;
+      background: none !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
-
-    .role-paragraph {
-           margin: 12px 0 0 459px !important;
+  
+    .image-citrus::before {
+      background-image: none !important;
     }
+  
+  .text-content {
+    display: none !important;
+  }
 
+  .text-content-landscape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: -55px !important;
+  }
+
+  .hello-index {
+    font-size: 52px;
+    color: #757575;
+    margin: 10px auto !important;
+  }
+
+  .emily-name-index {
+    font-size: 32px;
+    color: #757575;
+    margin: 10px auto !important;
+  }
+
+  .role-index {
+    font-size: 18px;
+    font-weight: 300;
+    color: #656060;
+    line-height: 1.5;
+    margin: 10px auto !important;
+  }
+  
     .contact-button-homepage {
-        display: flex;
-        justify-content: center;
-       margin: 341px 0 0 67px !important;
+      display: flex;
+      justify-content: center;
+      margin: -25px auto !important;
+      width: 100%;
     }
+  
     .contact-button {
-        padding: 10px 40px;
-        font-size: 16px;
-        margin: -15px -69px !important;
+      padding: 10px 40px !important;
+      margin: 0 auto;
     }
-
-    .image-emily {
-        display: none;
+  
+    .h2-welcome {
+        margin: 90px auto !important;
+        text-align: center;
+      font-size: 36px !important;
     }
-
-    .container-buttons {
-        width: 160% !important;
-        margin-top: -390px;
-        margin-left: -75px;
-}
-
-.h2-welcome {
-    margin: -115px -420px 0px 0;
-}
-
-.linkedin-icon {
-    margin-left: -45px;
-}
-
-.card-homepage-container {
-    margin-left: 130px !important;
-    width: 300%;
-    margin-top: 540px;
-}
-
-
+  
+    .container-buttons-landscape {
+        display: flex !important;
+        justify-content: center !important;
+        gap: 20px !important;
+        margin: -60px auto 30px auto !important;
+      }
+    
+      .container-buttons-landscape .btn {
+        margin: 0;
+      }
+    
+      /* Hide default vertical buttons */
+      .container-buttons {
+        display: none !important;
+      }
+  
+   .social-icons {
+    margin: -22px 0px 1090px 250px;
+   }
+   .card-homepage {
+    margin: 0px 0px -21px 35px;
+   }
+  
+    .card-homepage-container {
+      width: 73%;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -914,5 +988,9 @@ display: none;    }
 
     .about {
         top: 55%;
+    }
+
+    .container-buttons-landscape {
+        display: none !important;
     }
 }
