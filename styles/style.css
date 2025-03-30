@@ -611,7 +611,7 @@ display: none;    }
         padding: 10px 41px !important;
     }
 
-    .card-about-content {margin: -215px 10px 0 10px;
+    .card-about-content {margin: -215px 10px 50px 10px;
     order: 1;}
 
     .h6-title-about-content {
@@ -984,9 +984,6 @@ display: none;    }
       gap: 40px !important;
     }
 
-    .image-emily-about {
-        margin-top: 70px;
-    }
 
     .image-citrus-about  {
         display: none !important;
@@ -997,7 +994,7 @@ display: none;    }
 }
 
 .card-about-content {
-    margin: 45px 20px 50px -263px !important;
+    margin: 45px 20px 50px -175px !important;
 }
 
 .h3-about-content {
@@ -1037,7 +1034,9 @@ display: none;    }
   }
 
   .image-emily-about{
-    margin: 70px 0px 10px 200px !important;
+            margin: 70px 0px 10px 225px !important;
+            height: 250px;
+    width: 250px;
   }
 
 
