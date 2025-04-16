@@ -99,7 +99,7 @@ p {
 
 .image-flowers {
     margin-top: 64px;
-    margin-left: -34px;
+    margin-left: -50px;;
     width: 486px;
     height: 409px;
     background-image: url(/images/image-flowers-hawai.png);
@@ -117,8 +117,8 @@ p {
     object-fit: cover;
     object-position: center;
     display: block;
-    margin-top: 106px;
-    margin-left: 96px;
+    margin-top: 113px;
+    margin-left: 92px;
     position: relative;
     z-index: 2;
 }
@@ -215,11 +215,19 @@ p {
 .container-buttons {
     margin-top: -64px;
 }
+.linkedin-icon-index {
+    width: 35px;
+    height: 35px;
+    font-size: 35px;
+    margin-left: 71px;
+    margin-right: 10px;
+}
+
 .linkedin-icon {
     width: 35px;
     height: 35px;
     font-size: 35px;
-    margin-left: 122px;
+    margin-left: 117px;
     margin-right: 10px;
 }
 
@@ -433,7 +441,7 @@ p {
 }
 
 .card-work {
-    margin: 15px auto;
+    margin: -15px auto;
 }
 
 .card-work:hover {
@@ -498,13 +506,99 @@ p {
 .contact-me-title {
     color: #F27175;
     font-size: 80px;
-    margin: 0;
+    margin: 150px auto 20px;
     font-weight: 300;
+    text-align: center;
 }
 
 .image-citrus-contact {
-    margin-left: 0;
+    margin-left: -72px;
+    margin-top: 77px;
+    width: 112%;
 }
+
+.coding-journey {
+    font-size: 25px;
+    text-align: center;
+    margin: -9px auto;
+    color: black;
+    font-family: "Poppins", serif;
+    font-weight: 300px;
+}
+
+.email {
+    margin: 30px auto 0px !important;
+    text-align: center;
+}
+
+.email-me {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.social-icons-contact-linkedin {
+    margin: 20px auto;
+    justify-content: center;
+}
+
+.social-icons-contact-git {
+    margin-left: 6px;
+}
+
+.container-buttons-contact-page {
+display: flex;
+  flex-direction: column;
+  gap: 0px;
+  margin-top: -20px;
+}
+
+.about-button,
+.projects-button {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+margin-bottom: 20px;
+}
+
+.card-img-top-shecodes {
+    width: 35%;
+    height: auto;
+}
+
+.shecodes-card {
+    margin: 50px auto 0px;
+}
+
+.shecodes-card-body {
+    padding: 0px !important;
+}
+
+.shecodes-card-title {
+    font-size: 16px;
+    padding: 10px;
+    margin: 0px;
+    text-decoration: none !important;
+    color: black;
+}
+
+.shecodes-card-title:hover {
+    color: #F27175;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2) !important;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0) !important;
+    border-radius: 50px;
+    transition: box-shadow 0.3s ease-in-out, border 0.3s;
+}
+
+.shecodes-link {
+    text-decoration: none;
+    color: black;
+}
+
+a .shecodes-link:hover {
+    color: #F27175;
+}
+
 @media (max-width: 577px) {
 
     body, html {
