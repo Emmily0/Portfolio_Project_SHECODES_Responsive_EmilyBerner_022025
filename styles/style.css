@@ -708,7 +708,7 @@ margin: 0 !important;  }
 }
 
 .about-button {
-    margin: auto;
+    margin: auto !important;
 }
     .card-homepage {
         width: 90% !important;
@@ -729,14 +729,16 @@ margin: 0 !important;  }
         margin-top: 25px !important;
     }
 
-    .linkedin-icon {
-        margin-left: 4px;
-        margin-right: 10px;
-        
+    .linkedin-icon-index {
+        width: 35px;
+        height: 35px;
+        font-size: 35px;
+        margin-left: 21px;
+    margin-right: 0px;
     }
 
-    .projects-button {
-        margin-left: 1px !important;
+   .project-btn-index {
+        margin: 0 auto !important;
     }
 
     .h2-welcome {
@@ -826,6 +828,13 @@ display: none;    }
     flex-direction: column;
     align-items: center;
     }
+
+    .linkedin-about {
+        width: 35px;
+        height: 35px;
+        font-size: 35px;
+        margin-left: auto;}
+
     .container-buttons-landscape {
         display: none !important;
     }
@@ -838,12 +847,16 @@ display: none;    }
         display: none;}
 
         .social-icons-projects-linkedin {
-            margin: 25px 50px auto;
+            margin: 25px 57px auto;
             justify-content: center;
         }
 
-        .linkedin-projects {
-            margin-left: -95px;
+        .linkedin-icon-projects{
+            width: 35px;
+            height: 35px;
+            font-size: 35px;
+            margin-left: -8px !important;
+            margin-right: 10px !important;
         }
 
         .social-icons-projects-git {
@@ -1189,10 +1202,10 @@ margin: 0 auto 5px;     }
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
-    text-align: center;
-    padding: 20px;
-    margin-bottom: -55px !important;
+    min-height: 73vh;
+        text-align: center;
+        padding: 20px;
+        margin-bottom: -25px !important;
   }
 
   .hello-index {
@@ -1228,23 +1241,22 @@ margin: 0 auto 5px;     }
     }
   
     .h2-welcome {
-        margin: 90px auto !important;
+        margin: 65px auto 0px !important;
         text-align: center;
-      font-size: 36px !important;
+      font-size: 40px !important;
     }
   
     .container-buttons-landscape {
         display: flex !important;
         justify-content: center !important;
         gap: 20px !important;
-        margin: -60px auto 30px auto !important;
+        margin: 20px auto 30px auto !important;
       }
     
       .container-buttons-landscape .btn {
         margin: 0;
       }
     
-      /* Hide default vertical buttons */
       .container-buttons {
         display: none !important;
       }
@@ -1252,6 +1264,15 @@ margin: 0 auto 5px;     }
    .social-icons {
     margin: -22px 0px 1125px 250px;
    }
+
+   .linkedin-icon-index {
+    width: 35px;
+    height: 35px;
+    font-size: 35px;
+    margin-left: 46px;
+    margin-right: 10px;
+   }
+
    .card-homepage {
     margin: 0px 0px -21px 35px;
    }
@@ -1273,7 +1294,7 @@ margin: 0 auto 5px;     }
 }
 
 .card-about-content {
-    margin: 45px 20px 50px -175px !important;
+    margin: 45px 136px 50px -136px !important;
 }
 
 .h3-about-content {
