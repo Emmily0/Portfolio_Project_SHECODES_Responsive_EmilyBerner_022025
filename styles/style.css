@@ -598,6 +598,7 @@ margin-bottom: 20px;
 a .shecodes-link:hover {
     color: #F27175;
 }
+ 
 
 @media (max-width: 577px) {
 
@@ -869,7 +870,48 @@ display: none;    }
                     .contact-button-projects {
                         margin: -75px auto 30px;
                         justify-content: center !important;}
+
+    .image-citrus-contact {
+        display: none;
+    }
+
+    .contact-me-title {
+        font-size: 50px;
+        text-align: center;
+        margin: 75px auto 20px !important;
+    }
+
+    .coding-journey {
+        font-size: 20px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .container-buttons-contact-page {
+        margin: -10px auto !important;
+    }
+
+    .about-contact {
+        margin: 0 auto !important;
+    }
+
+    .project-contact {
+        margin: 20px auto !important;
+    }
+
+    .shecodes-card {
+        margin: 30px auto 0px;
+    }
+
+    .linkedin-contact {
+        margin-left: 257px;
+        margin-right: -120px;
+    }
+    
+    .social-icons-contact-git {
+margin: 0 auto 5px;     }
 }
+
 
 @media (min-width: 578px) and (max-width: 992px) {
     
@@ -1302,6 +1344,57 @@ display: none;    }
 
 .world-img {
     margin-top: 0px;}
+
+.contact-me-title {
+    font-size: 54px;
+    margin: 65px auto 15px !important;
+}
+
+.coding-journey {
+    font-size: 19px;
+}
+
+.container-buttons-contact-page {
+    margin: -10px auto !important;
+}
+
+.about-contact {
+    margin: 0 auto !important;
+}
+
+.project-contact {
+    margin: 20px auto 0px !important;
+}
+
+.shecodes-card {
+    margin: 24px auto 40px; }
+
+.linkedin-contact {
+    margin-left: 197px;
+        margin-right: -112px;
+}
+
+.social-icons-contact-linkedin {
+    margin: 15px auto 15px;
+    justify-content: center;
+}
+.social-icons-contact-git {
+    margin: 0 auto -30px;   
+}
+
+.email {
+    margin: 25px auto !important;
+        text-align: center;
+}
+
+.email-me {
+    font-size: 19px;
+}
+
+.image-citrus-contact {
+    margin-left: -126px;
+    margin-top: 73px;
+    width: 133%;}
 
 }
 
