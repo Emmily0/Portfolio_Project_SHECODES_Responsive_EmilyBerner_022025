@@ -598,6 +598,23 @@ margin-bottom: 20px;
 a .shecodes-link:hover {
     color: #F27175;
 }
+
+footer {
+    text-align: center;
+    font-size: 10.5px;
+    font-weight: 200;
+    color: #656060;
+    margin: 35px auto 15px;
+}
+
+footer a {
+    color: #FF543E;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #285142;
+}
  
 
 @media (max-width: 577px) {
@@ -917,8 +934,8 @@ display: none;    }
     }
 
     .linkedin-contact {
-        margin-left: 257px;
-        margin-right: -120px;
+        margin-left: 278px;
+        margin-right: -138px;
     }
     
     .social-icons-contact-git {
@@ -1414,7 +1431,7 @@ margin: 0 auto 5px;     }
 
 .image-citrus-contact {
     margin-left: -126px;
-    margin-top: 73px;
+    margin-top: 96px;    
     width: 133%;}
 
 }
