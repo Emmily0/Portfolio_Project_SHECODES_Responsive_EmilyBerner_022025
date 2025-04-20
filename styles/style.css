@@ -344,6 +344,10 @@ p {
     border-radius: 23px;
 }
 
+.btn-projects:hover {
+    color: white;
+}
+
 .btn-contact {
     padding: 10px 80px !important;
     background-color: #F8A5A8 !important;
@@ -351,7 +355,10 @@ p {
     text-decoration: none;
     color: white;
     border-radius: 23px;
+}
 
+.btn-contact:hover {
+    color: white;
 }
 
 .about-content-container {
@@ -380,7 +387,7 @@ p {
 
 .image-flowers-about {
     background-image: url("/images/image-flowers-hawai.png");
-    margin-top: -25px;
+    margin-top: 71px;
     margin-left: -112px;
     width: 480px;
     height: 390px;
